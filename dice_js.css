@@ -1,0 +1,22 @@
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.dice {
+    font-family: fantasy;
+    width:600px;
+    height:600px;
+    background: url('die.jpg') no-repeat center;
+    background-size: contain;
+    text-align:center;
+    font-size: 160px;
+    padding:190px;
+    box-sizing: border-box;
+    cursor: pointer;
+    /* DISABLES TEXT SELECTION: */
+        -webkit-user-select: none;  /* Chrome all / Safari all */
+        -moz-user-select: none;     /* Firefox all */
+        -ms-user-select: none;      /* IE 10+ */
+        user-select: none;          /* Likely future */      
+}
